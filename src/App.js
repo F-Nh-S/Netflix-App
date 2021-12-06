@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <ScrollToTop/>
       <Switch>
+      <Route exact path="/Netflix-App" component={Home}/>
       <Route exact path="/" component={Home}/>
       <Route path="/home" component={DigiShow}/>
       <Route path="/wishlist" component={WishList}/>
