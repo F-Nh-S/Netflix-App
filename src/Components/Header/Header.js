@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className="showcase">
             <div className="showcase-top">
-                <img src="/images/NetflixBase.png" alt="logo" />
+                <img src="https://raw.githubusercontent.com/F-Nh-S/Netflix-App/gh-pages/images/NetflixBase.png" alt="logo" />
                 {/* <Link to="/" className="btn btn-rounded">
                     
                 </Link> */}
