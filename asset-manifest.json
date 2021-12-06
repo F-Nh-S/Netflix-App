@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Netflix-App/static/css/main.b15b5e5d.chunk.css",
-    "main.js": "/Netflix-App/static/js/main.7faa6e38.chunk.js",
-    "main.js.map": "/Netflix-App/static/js/main.7faa6e38.chunk.js.map",
+    "main.js": "/Netflix-App/static/js/main.f6a2da68.chunk.js",
+    "main.js.map": "/Netflix-App/static/js/main.f6a2da68.chunk.js.map",
     "runtime-main.js": "/Netflix-App/static/js/runtime-main.fade0db8.js",
     "runtime-main.js.map": "/Netflix-App/static/js/runtime-main.fade0db8.js.map",
     "static/js/2.226e6122.chunk.js": "/Netflix-App/static/js/2.226e6122.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.fade0db8.js",
     "static/js/2.226e6122.chunk.js",
     "static/css/main.b15b5e5d.chunk.css",
-    "static/js/main.7faa6e38.chunk.js"
+    "static/js/main.f6a2da68.chunk.js"
   ]
 }
