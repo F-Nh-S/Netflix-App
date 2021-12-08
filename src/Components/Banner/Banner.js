@@ -31,8 +31,8 @@ const Banner = () => {
                     {movie?.title || movie?.name || movie?.originam_name}
                 </h1>
                 <div className="banner-buttons">
-                <Link to="/watchlist"> <button className="banner-button"><i className="fas fa-eye"></i> Watched List</button> </Link>
-                <Link to="/wishlist">   <button className="banner-button"><i className="fas fa-heart"></i> Wish List</button> </Link>
+                <Link to="/Netflix-App/watchlist"> <button className="banner-button"><i className="fas fa-eye"></i> Watched List</button> </Link>
+                <Link to="/Netflix-App/wishlist">   <button className="banner-button"><i className="fas fa-heart"></i> Wish List</button> </Link>
                 </div>
                 <h1 className="banner-description">{truncate(movie?.overview,150)}</h1>
             </div>
