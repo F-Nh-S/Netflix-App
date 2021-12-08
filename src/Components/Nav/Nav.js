@@ -1,6 +1,8 @@
 import { React, useEffect, useState } from 'react'
 import { Link } from "react-router-dom"
 import "./Nav.css"
+import NetflixBase from  "./NetflixBase.png"  
+import NetflixAvatar from  "./NetflixAvatar.png"  
 
 
 const Nav = () => {
@@ -24,9 +26,9 @@ const Nav = () => {
     return (
         <div className={`nav ${show && "nav-black"}`}>
             <Link to="/home">
-                <img src="/images/NetflixBase.png" className="nav-logo" alt="logo" />
+                <img src={NetflixBase} className="nav-logo" alt="logo" />
             </Link>
-            <img src="/images/NetflixAvatar.png" className="nav-avatar" alt="logo" />
+            <img src={NetflixAvatar} className="nav-avatar" alt="logo" />
         </div>
     )
 }

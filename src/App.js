@@ -16,9 +16,9 @@ function App() {
       <Switch>
       <Route exact path="/Netflix-App" component={Home}/>
       <Route exact path="/" component={Home}/>
-      <Route path="/home" component={DigiShow}/>
-      <Route path="/wishlist" component={WishList}/>
-      <Route path="/watchlist" component={WatchList}/>
+      <Route path="/Netflix-App/home" component={DigiShow}/>
+      <Route path="/Netflix-App/wishlist" component={WishList}/>
+      <Route path="/Netflix-App/watchlist" component={WatchList}/>
       </Switch>
       <Footer/>
     </div>
