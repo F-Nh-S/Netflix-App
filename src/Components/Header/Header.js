@@ -19,7 +19,7 @@ const Header = () => {
             <div className="showcase-content">
                 <h1>Unlimited Movies , TV Shows and more</h1>
                 <p>NETFLIX CLONE VERSION </p>
-                <Link to="/home" className="btn btn-x1">
+                <Link to="/Netflix-App/home" className="btn btn-x1">
                     Redirect to Wishlist Page
                     <i className="fas fa-chevron-right btn-icon"></i>
                 </Link>
