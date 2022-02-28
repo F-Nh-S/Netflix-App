@@ -14,11 +14,11 @@ function App() {
     <div className="App">
       <ScrollToTop/>
       <Switch>
-      <Route exact path="/Netflix-App" component={Home}/>
+     
       <Route exact path="/" component={Home}/>
-      <Route path="/Netflix-App/home" component={DigiShow}/>
-      <Route path="/Netflix-App/wishlist" component={WishList}/>
-      <Route path="/Netflix-App/watchlist" component={WatchList}/>
+      <Route path="/home" component={DigiShow}/>
+      <Route path="/wishlist" component={WishList}/>
+      <Route path="/watchlist" component={WatchList}/>
       </Switch>
       <Footer/>
     </div>
