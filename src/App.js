@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter , Switch , Route } from 'react-router-dom';
+import { HashRouter , Switch , Route } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import './Css/App.css';
@@ -10,7 +10,7 @@ import  WishList  from './Pages/WishList';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
       <ScrollToTop/>
       <Switch>
@@ -23,7 +23,7 @@ function App() {
       <Footer/>
     </div>
   
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
